@@ -279,7 +279,7 @@ export default function DisRpt() {
                 variant="outline" 
                 size="sm" 
                 onClick={() => setLocation('/')} 
-                className="h-9 flex gap-2 items-center text-green-800 hover:text-green-900 border-green-800 hover:bg-green-100"
+                className="h-9 flex gap-2 items-center text-green-800 hover:text-green-900 border-green-800 hover:bg-green-100 bg-green-50"
               >
                 <ArrowLeft className="h-4 w-4" />
                 Back
