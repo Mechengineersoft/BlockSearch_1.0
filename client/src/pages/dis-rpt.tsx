@@ -173,7 +173,7 @@ export default function DisRpt() {
               variant="ghost"
               size="icon"
               onClick={() => setLocation('/')}
-              className="ml-2 text-green-800 hover:text-green-900 hover:bg-green-100"
+              className="ml-2 bg-green-100 hover:bg-green-200 text-green-800 hover:text-green-900 border-green-200 hover:border-green-300"
             >
               <ArrowLeft className="h-4 w-4" />
             </Button>

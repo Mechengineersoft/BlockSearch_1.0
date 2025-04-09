@@ -285,7 +285,7 @@ export default function HomePage() {
                 variant="outline" 
                 size="sm" 
                 onClick={() => setLocation(`/dis-rpt?blockNo=${encodeURIComponent(blockNo)}&thickness=${encodeURIComponent(thickness)}`)} 
-                className="h-9 flex gap-2 items-center"
+                className="h-9 flex gap-2 items-center bg-purple-100 hover:bg-purple-200 text-purple-800 hover:text-purple-900 border-purple-200 hover:border-purple-300"
               >
                 <FileText className="h-4 w-4" />
                 Dis Rpt
